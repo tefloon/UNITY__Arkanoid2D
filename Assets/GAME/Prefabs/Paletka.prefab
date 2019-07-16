@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6919240009376509136}
   - component: {fileID: 6919240009376509143}
   - component: {fileID: 5876533413098628895}
+  - component: {fileID: 564091207}
   m_Layer: 0
   m_Name: Paletka
   m_TagString: Untagged
@@ -120,3 +121,48 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   poziomPaletki: -4.5
+--- !u!114 &564091207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6919240009376509142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3863d23d4eaa00940b88c4f96fe2f712, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapowanieMiejsce_Kierunek:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -100
+      value: -80
+      inSlope: 0.00012123122
+      outSlope: 0.00012123122
+      tangentMode: 0
+      weightedMode: 2
+      inWeight: 0
+      outWeight: 0.99999887
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.00045830465
+      outSlope: 0.00045830465
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.49473873
+      outWeight: 0.49990082
+    - serializedVersion: 3
+      time: 100
+      value: 80
+      inSlope: 0.0003737695
+      outSlope: 0.0003737695
+      tangentMode: 0
+      weightedMode: 1
+      inWeight: 1
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
