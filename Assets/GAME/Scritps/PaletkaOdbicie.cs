@@ -51,7 +51,7 @@ public class PaletkaOdbicie : MonoBehaviour
 
 
 		// Tworzymy nowy kierunek, poprzez wzięcie wektora jednostkowego do góry
-		// i jego obrótzgodnie ze wskazówkami zegara (stąd obrót wokół -Vector3.forward)
+		// i jego obrót zgodnie ze wskazówkami zegara (stąd obrót wokół -Vector3.forward)
 		Vector2 nowyKierunek = Quaternion.AngleAxis(oIleObrocic, -Vector3.forward) * Vector2.up;
 
 		// Mnożymy nowy kierunek przez starą prędkość, aby piłeczka po odbiciu
