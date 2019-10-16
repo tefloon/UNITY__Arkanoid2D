@@ -25,10 +25,9 @@ public class TworzenieMapy : MonoBehaviour
 		{
 			for (int x = 0; x < liczbaKolumn; x++)
 			{
-				Vector2 tilePlace = new Vector2(x * (szerBloczka + odstepX), -y * (wysBloczka + odstepY)) 
-									+ (Vector2)start.position;
+				Vector2 miejsceBloczka = new Vector2(x * (szerBloczka + odstepX), -y * (wysBloczka + odstepY)) + (Vector2)start.position;
 
-				Instantiate(prefabBloczka, tilePlace, Quaternion.identity, rodzicBloczkow);
+				Instantiate(prefabBloczka, miejsceBloczka, Quaternion.identity, rodzicBloczkow);
 			}
 		}
 	}
