@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6741033204888663450}
   m_Layer: 0
   m_Name: "Pi\u0142eczka"
-  m_TagString: Untagged
+  m_TagString: Ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113,7 +113,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 6200000, guid: 4347613bb659b094eb071a06c3c5535c, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -131,3 +131,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d253dd0a4d37e414ea4ef952c4e693c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  wstepnaPredkosc: {x: 4, y: 4}
